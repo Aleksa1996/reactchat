@@ -1,0 +1,47 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'nav';
+@import 'fonts';
+
+body {
+    font-family: 'Varela Round';
+}
+.page {
+    padding-top: 100px;
+}
+.page-bg {
+    background: $primary-color;
+}
+p {
+    color: white;
+}
+.card {
+    p {
+        color: $primary-color;
+    }
+}
+
+.btn-secondary-c {
+    color: #fff;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    &:hover {
+        border-color: darken($secondary-color, 6%);
+        background-color: darken($secondary-color, 6%);
+        color: #fff;
+    }
+}
+
+.main-nav-add-bg {
+    background: $primary-color;
+}
+
+// .btn-secondary-c {
+// }
+
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/chat';

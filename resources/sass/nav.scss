@@ -1,0 +1,13 @@
+.main-nav {
+    padding: 20px 115px;
+    color: $secondary-color;
+    a {
+        color: #fff;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .nav-link {
+        font-size: 18px;
+    }
+}

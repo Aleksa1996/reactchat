@@ -1,0 +1,11 @@
+.page-about {
+    h1,
+    h2,
+    h3 {
+        color: $secondary-color;
+    }
+    .page-about-text {
+        width: 760px;
+        padding: 25px 0px 100px;
+    }
+}
