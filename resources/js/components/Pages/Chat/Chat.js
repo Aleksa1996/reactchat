@@ -7,7 +7,7 @@ class Chat extends Component {
     state = {};
     render() {
         return (
-            <div className="chat-container">
+            <div className="chat-container mt-3">
                 <div id="frame">
                     <Sidepanel />
                     <Content />

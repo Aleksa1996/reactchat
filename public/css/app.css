@@ -10526,7 +10526,7 @@ body {
 }
 
 .page {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .page-bg {
@@ -10576,16 +10576,7 @@ p {
 }
 
 .chat-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 100vh;
+  height: calc(100vh - 86px);
   background: #2c3e50;
   font-family: 'proxima-nova', 'Source Sans Pro', sans-serif;
   font-size: 1em;
@@ -10599,9 +10590,8 @@ p {
 #frame {
   width: 98%;
   min-width: 360px;
-  height: 92vh;
-  min-height: 300px;
-  max-height: 720px;
+  height: calc(100vh - 90px);
+  min-height: 565px;
   background: #e6eaea;
   margin: 0 auto;
 }
@@ -10634,7 +10624,7 @@ p {
 
 #frame #sidepanel #profile {
   width: 80%;
-  margin: 25px auto;
+  margin: 9px auto 15px;
 }
 
 @media screen and (max-width: 735px) {
@@ -10725,8 +10715,8 @@ p {
 
 #frame #sidepanel #profile .wrap i.expand-button {
   float: right;
-  margin-top: 23px;
-  font-size: 0.8em;
+  margin-top: 19px;
+  font-size: 20px;
   cursor: pointer;
   color: #435f7a;
 }
@@ -10931,7 +10921,7 @@ p {
 #frame #sidepanel #search input {
   font-family: 'proxima-nova', 'Source Sans Pro', sans-serif;
   padding: 10px 0 10px 46px;
-  width: calc(100% - 25px);
+  width: 100%;
   border: none;
   background: #32465a;
   color: #f5f5f5;
@@ -10964,6 +10954,13 @@ p {
   overflow-x: hidden;
 }
 
+#frame #sidepanel #contacts ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 20px 0px 0px;
+  padding-bottom: 20px;
+}
+
 @media screen and (max-width: 735px) {
   #frame #sidepanel #contacts {
     height: calc(100% - 149px);
@@ -10994,6 +10991,7 @@ p {
   padding: 10px 0 15px 0;
   font-size: 0.9em;
   cursor: pointer;
+  margin: 5px 0px;
 }
 
 @media screen and (max-width: 735px) {
@@ -11197,6 +11195,7 @@ p {
 
 #frame .content .contact-profile p {
   float: left;
+  color: #2c3e50;
 }
 
 #frame .content .contact-profile .social-media {
@@ -11225,6 +11224,10 @@ p {
   overflow-x: hidden;
 }
 
+#frame .content .messages ul li p {
+  word-wrap: break-word;
+}
+
 @media screen and (max-width: 735px) {
   #frame .content .messages {
     max-height: calc(100% - 105px);
@@ -11243,7 +11246,7 @@ p {
 #frame .content .messages ul li {
   display: inline-block;
   clear: both;
-  margin: 15px 15px 5px 15px;
+  margin: 0px 15px 0px 15px;
   width: calc(100% - 25px);
   font-size: 0.9em;
 }
@@ -11269,6 +11272,7 @@ p {
 #frame .content .messages ul li.replies p {
   background: #f5f5f5;
   float: right;
+  color: #2c3e50;
 }
 
 #frame .content .messages ul li img {
@@ -11287,7 +11291,7 @@ p {
 
 @media screen and (min-width: 735px) {
   #frame .content .messages ul li p {
-    max-width: 300px;
+    max-width: 400px;
   }
 }
 

@@ -13,7 +13,7 @@ import Chat from './Pages/Chat/Chat';
 const Router = props => {
     return (
         <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Chat} />
             <Route exact path="/chat" component={Chat} />
             {/* <Route exact path="/contact" component={ContactAsync} /> */}
         </Switch>

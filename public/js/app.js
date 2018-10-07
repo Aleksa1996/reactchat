@@ -1092,9 +1092,9 @@ module.exports = checkPropTypes;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(66);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* unused harmony reexport BrowserRouter */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(73);
-/* unused harmony reexport HashRouter */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(28);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(74);
@@ -14761,7 +14761,7 @@ var App = function (_Component) {
     }, {
         key: 'render',
         value: function render() {
-            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StoreContext.Provider, { value: this.state }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["a" /* BrowserRouter */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Pages_Layout__["a" /* default */], null)));
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(StoreContext.Provider, { value: this.state }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["a" /* HashRouter */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Pages_Layout__["a" /* default */], null)));
         }
     }]);
 
@@ -39776,7 +39776,7 @@ BrowserRouter.propTypes = {
 };
 
 
-/* harmony default export */ __webpack_exports__["a"] = (BrowserRouter);
+/* unused harmony default export */ var _unused_webpack_default_export = (BrowserRouter);
 
 /***/ }),
 /* 67 */
@@ -41316,7 +41316,7 @@ HashRouter.propTypes = {
 };
 
 
-/* unused harmony default export */ var _unused_webpack_default_export = (HashRouter);
+/* harmony default export */ __webpack_exports__["a"] = (HashRouter);
 
 /***/ }),
 /* 74 */
@@ -42282,7 +42282,7 @@ var Navigation = function Navigation() {
 // const ContactAsync = asyncComponent(() => import('./components/Pages/Contact/Contact'));
 
 var Router = function Router(props) {
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["d" /* Switch */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/', component: __WEBPACK_IMPORTED_MODULE_2__Pages_Home_Home__["a" /* default */] }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/chat', component: __WEBPACK_IMPORTED_MODULE_3__Pages_Chat_Chat__["a" /* default */] }));
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["d" /* Switch */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/', component: __WEBPACK_IMPORTED_MODULE_3__Pages_Chat_Chat__["a" /* default */] }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: '/chat', component: __WEBPACK_IMPORTED_MODULE_3__Pages_Chat_Chat__["a" /* default */] }));
 };
 /* harmony default export */ __webpack_exports__["a"] = (Router);
 
@@ -42352,7 +42352,7 @@ var Home = function (_Component) {
     return Home;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* harmony default export */ __webpack_exports__["a"] = (Home);
+/* unused harmony default export */ var _unused_webpack_default_export = (Home);
 
 /***/ }),
 /* 95 */
@@ -42418,7 +42418,7 @@ var Chat = function (_Component) {
     _createClass(Chat, [{
         key: 'render',
         value: function render() {
-            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'chat-container' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { id: 'frame' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Sidepanel_Sidepanel__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Content_Content__["a" /* default */], null)));
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'chat-container mt-3' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { id: 'frame' }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Sidepanel_Sidepanel__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Content_Content__["a" /* default */], null)));
         }
     }]);
 
@@ -42511,7 +42511,7 @@ var Sidepanel = function (_Component) {
 
 
 var Profile = function Profile() {
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "profile" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { id: "profile-img", src: "http://emilcarlsson.se/assets/mikeross.png", className: "online", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Mike Ross"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-chevron-down expand-button", "aria-hidden": "true" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "status-options" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { id: "status-online", className: "active" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "status-circle" }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Online")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { id: "status-away" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "status-circle" }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Away")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { id: "status-busy" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "status-circle" }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Busy")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { id: "status-offline" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "status-circle" }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Offline")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "expanded" })));
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "profile" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { id: "profile-img", src: "http://emilcarlsson.se/assets/mikeross.png", className: "online", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Mike Ross"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fa fa-cog expand-button", "aria-hidden": "true" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "status-options" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { id: "status-online", className: "active" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "status-circle" }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Online")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { id: "status-away" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "status-circle" }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Away")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { id: "status-busy" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "status-circle" }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Busy")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { id: "status-offline" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "status-circle" }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Offline")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "expanded" })));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Profile);
@@ -42541,7 +42541,7 @@ var Search = function Search() {
 
 
 var Contacts = function Contacts() {
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "contacts" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status online" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/louislitt.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name" }, "Louis Litt"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "You just got LITT up, Mike.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact active" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status busy" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/harveyspecter.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name" }, "Harvey Specter"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status away" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/rachelzane.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name" }, "Rachel Zane"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "I was thinking that we could have chicken tonight, sounds good?")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/haroldgunderson.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name" }, "Harold Gunderson"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "Thanks Mike! :)"))))));
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { id: "contacts" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status online" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/louislitt.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name mb-0" }, "Louis Litt"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "You just got LITT up, Mike.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact active" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status busy" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/harveyspecter.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name mb-0" }, "Harvey Specter"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status away" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/rachelzane.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name mb-0" }, "Rachel Zane"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "I was thinking that we could have chicken tonight, sounds good?")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/haroldgunderson.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name mb-0" }, "Harold Gunderson"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "Thanks Mike! :)")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", { className: "contact" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "wrap" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", { className: "contact-status" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/haroldgunderson.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "meta" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "name mb-0" }, "Harold Gunderson"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", { className: "preview" }, "Thanks Mike! :)"))))));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Contacts);
@@ -42631,7 +42631,7 @@ var Content = function (_Component) {
 
 
 var Contact = function Contact() {
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "contact-profile" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/harveyspecter.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Harvey Specter"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "social-media" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-facebook", "aria-hidden": "true" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-twitter", "aria-hidden": "true" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "fa fa-instagram", "aria-hidden": "true" })));
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "contact-profile" }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://emilcarlsson.se/assets/harveyspecter.png", alt: "" }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Harvey Specter"));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Contact);
